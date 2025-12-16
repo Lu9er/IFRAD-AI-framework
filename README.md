@@ -14,13 +14,13 @@ This repository contains the validated technical specifications, ethical guideli
 The connectivity blind spot solution: Standard systems treat connectivity as a given. We treat it as a luxury.
 Edge Computing: Algorithms run locally on Android devices.
 Infrastructure-aware: We found a strong correlation (r=-0.695) between storage capacity and stockouts. Our algorithms treat physical storage as a hard constraint.
-Local Edits Always Win: We solve the black box problem by ensuring algorithms never overrule clinical judgment. If a nurse overrides a forecast due to a disease outbreak, the system accepts it immediately and flags it for later analysis—it does not block the transaction.
+Local Edits Always Win: We solve the black box problem by ensuring algorithms never overrule clinical judgment. If a nurse overrides a forecast due to a disease outbreak, the system accepts it immediately and flags it for later analysis, it does not block the transaction.
 
 # Tech Stack
-Mobile: Android (Kotlin), Room Database (SQLite)
-Forecasting: Python (hierarchicalforecast), Scikit-learn
-Integration: Interoperability standards for DHIS2, eLMIS, and eAFYA
+1. Mobile: Android (Kotlin), Room Database (SQLite)
+2. Forecasting: Python (hierarchicalforecast), Scikit-learn
+3. Integration: Interoperability standards for DHIS2, eLMIS, and eAFYA
 
 # Contact
-Principal Investigator: Gideon Abako (International Foundation for Recovery & Development)
-Email: abakogideon@gmail.com
+1. Principal Investigator: Gideon Abako (International Foundation for Recovery & Development)
+2. Email: abakogideon@gmail.com
